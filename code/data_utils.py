@@ -15,7 +15,7 @@ torch.manual_seed(42)
 
 
 def get_eddy_dataloader(
-    files, binary=False, transform=None, batch_size=32, shuffle=True, val_split=0
+    files, binary=true, transform=None, batch_size=32, shuffle=True, val_split=0
 ):
     """
     Given a list of npz files, return dataloader(s) for train (and val).
